@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "vite": "vite",
+        "serve": "php artisan serve",
+        "dev": "concurrently -k -s first \"npm run vite\" \"npm run serve\""
+    },
+    "devDependencies": {
+        "@types/bootstrap": "^5.2.10",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "axios": "^1.6.4",
+        "concurrently": "^9.1.2",
+        "laravel-vite-plugin": "^1.0",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.5",
+        "jquery": "^3.7.1",
+        "pinia": "^3.0.2",
+        "select2": "^4.1.0-rc.0",
+        "swiper": "^11.2.6",
+        "vue": "^3.5.13",
+        "vue-multiselect": "^3.2.0",
+        "vue-router": "^4.5.1"
+    }
+}
